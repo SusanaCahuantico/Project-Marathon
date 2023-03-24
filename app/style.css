@@ -7,8 +7,31 @@
 
 .imglogo {
     width: 18rem;
+    background: black;
+    border-radius: 14px;
+    color: white;
+    margin-right: 20px;
 }
 
-.center {
-    text-align: center;
+.image-center {
+    position: relative;
+    margin: 0rem 1rem;
+    padding: 1rem 2rem;
+}
+
+.content {
+    display: flex;
+    margin: 7px;
+    padding: 0px 43px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    line-height: 1rem;
+}
+@media (max-width: 450px) {
+    .users {
+        width: 50rem;
+    }
 }
