@@ -1,0 +1,14 @@
+.users {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imglogo {
+    width: 18rem;
+}
+
+.center {
+    text-align: center;
+}
